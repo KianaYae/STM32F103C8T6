@@ -16,11 +16,11 @@ SDA 电平下降前，SCL 保持 **4.7 us** 以上的 “高” 电平；
 
 SDA 电平下降后，SCL 保持 **4 us** 以上的 “高” 电平
 
-![image-20231129152119675](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20231129152119675.png)
+![](E:\Github\STM32\STM32F103C8T6\I2C\img\image-20231129152119675.png)
 
 tHD;STA 最小值：4 微秒
 
-![image-20231129152629911](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20231129152629911.png)
+![](E:\Github\STM32\STM32F103C8T6\I2C\img\image-20231129152629911.png)
 
 tSU;STA 最小值：4.7 微秒
 
@@ -30,7 +30,7 @@ SDA 电平上升前，SCL 保持 **4 us** 以上的 “高” 电平；
 
 SDA 电平上升后，保持 **4.7 us** 以上的 “高” 电平
 
-![image-20231129153400716](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20231129153400716.png)
+![image-20231129153400716](E:\Github\STM32\STM32F103C8T6\I2C\img\image-20231129153400716.png)
 
 tSU;STO 最小值：4 微秒
 
@@ -46,13 +46,13 @@ SCL 脉冲信号 “低” 电平保持 **4.7 us** 以上；
 
 SCL 脉冲信号 “高” 电平保持 **4 us** 以上
 
-![image-20231129154609720](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20231129154609720.png)
+![image-20231129154609720](E:\Github\STM32\STM32F103C8T6\I2C\img\image-20231129154609720.png)
 
 tHD;DAT 最小值：5 微秒
 
 tSU;DAT 最小值：0.25 微秒
 
-![image-20231129155055221](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20231129155055221.png)
+![image-20231129155055221](E:\Github\STM32\STM32F103C8T6\I2C\img\image-20231129155055221.png)
 
 tLOW 最小值：4.7 微秒
 
