@@ -1,6 +1,8 @@
 #ifndef __IIC_H
 #define __IIC_H
 
+#include "stm32f10x.h"
+
 #define GPIO_PORT_I2C   GPIOB                   /* GPIO端口 */
 #define RCC_I2C_PORT    RCC_APB2Periph_GPIOB    /* GPIO端口时钟 */
 #define I2C_SCL_PIN     GPIO_Pin_6              /* SCL引脚 */
